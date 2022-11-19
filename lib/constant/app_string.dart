@@ -9,5 +9,6 @@ class AppString{
   static const String description ='Description';
   static const String detailTitle ='Drink Detail';
   static const String listTitle ='Drink List';
+  static const String favListTitle ='Favourite List';
   static const String hintText ='Search with drink name....';
 }

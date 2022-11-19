@@ -6,8 +6,9 @@ abstract class DrinkState{
 
 class DrinkInitialState extends DrinkState{
 final DrinkModel? drinkModel;
+final bool favourite;
 
-DrinkInitialState({this.drinkModel});
+DrinkInitialState( {this.drinkModel,this.favourite=false,});
   
 }
 

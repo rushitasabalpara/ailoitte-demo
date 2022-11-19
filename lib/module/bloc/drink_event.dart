@@ -12,3 +12,9 @@ class SearchEvent extends DrinkEvent{
   final String? value;
 SearchEvent({this.value});
 }
+
+class FavouriteEvent extends DrinkEvent{
+  final bool? favourite;
+  final String? id;
+  FavouriteEvent({this.favourite,this.id});
+}
